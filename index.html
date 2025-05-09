@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mini Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📝 Mini Blog</h1>
+    <button onclick="logout()" style="float: right;">Logout</button>
+    <div class="form">
+      <input type="text" id="title" placeholder="Blog Title" />
+      <textarea id="content" placeholder="Write your blog here..."></textarea>
+      <button onclick="addPost()">Post</button>
+    </div>
+    <div id="posts"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
