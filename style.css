@@ -1,71 +1,61 @@
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background: #f9f9f9;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-  }
-  
-  h1 {
-    text-align: center;
-    color: #333;
-  }
-  
-  .form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-  
-  input, textarea {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    width: 100%;
-  }
-  
-  button {
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
-  .post {
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 6px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-bottom: 15px;
-  }
-  
-  .post h2 {
-    margin-top: 0;
-  }
-  
-  .delete-btn {
-    background-color: #e74c3c;
-    border: none;
-    color: white;
-    padding: 5px 10px;
-    float: right;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.post {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px;
+  margin-top: 20px;
+  background: #f9f9f9;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  float: right;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
   
   .delete-btn:hover {
     background-color: #c0392b;
